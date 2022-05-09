@@ -36,10 +36,21 @@ header nav a {
     padding: 1%;
 }
 
+header nav a:link {
+    text-decoration: none;
+    color: aliceblue;
+} 
+
+header nav a:visited {
+    text-decoration: none;
+    color: aliceblue;
+}
+
 header nav a:hover {
     padding: 1%;
     border: 0%;
     background: rgba(0, 0, 0, 0.5);
+
 }
 
 #playIMG {
